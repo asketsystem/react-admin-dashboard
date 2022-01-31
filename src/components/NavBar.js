@@ -20,7 +20,7 @@ const NavbarWrapper = styled.div`
 const Logo = styled.span`
     font-weight: bold;
     font-size: 30px;
-    color: maroon;
+    color: orange;
     cursor: pointer;
 `
 const TopLeft = styled.div``
@@ -62,7 +62,7 @@ const Navbar = () => {
         <NavbarContainer>
             <NavbarWrapper>
                 <TopLeft>
-                    <Logo>twdadmin</Logo>
+                    <Logo>myAdmin</Logo>
                 </TopLeft>
                 <TopRight>
                     <IconContainer>
@@ -76,7 +76,7 @@ const Navbar = () => {
                     <IconContainer>
                         <Settings />
                     </IconContainer>
-                    <Avatar src={`https://randomuser.me/api/portraits/women/${rndNmr()}.jpg`} alt="avatar" />
+                    <Avatar src={`https://randomuser.me/api/portraits/men/${rndNmr()}.jpg`} alt="avatar" />
                 </TopRight>
             </NavbarWrapper>
         </NavbarContainer>
